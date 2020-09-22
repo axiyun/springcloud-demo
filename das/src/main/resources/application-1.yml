@@ -1,0 +1,14 @@
+server:
+  port: 8031
+
+spring:
+  application:
+    name: das
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+das:
+  name: das-1
