@@ -9,3 +9,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8000/eureka/
+
+das:
+  ribbon:
+    eureka:
+      enabled: true
+    ServerListRefreshInterval: 15000
